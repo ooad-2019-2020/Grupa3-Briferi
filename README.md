@@ -17,3 +17,11 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
       - Otvorenog tipa
   - Policijske stanice - 
   - Administrator - predstavlja koordinacioni centar na državnom nivou
+
+## Funkcionalnosti:
+   
+   ### Administrator
+      
+          - Dodavanje novih i ukidanje postojećih migrantskih centara
+          - Upravljanje bazom podataka svih migranata
+          
