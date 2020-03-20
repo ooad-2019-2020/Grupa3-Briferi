@@ -1,2 +1,4 @@
-# Grupa3-Briferi
-Tema: TBD
+Tema: Software za upravljanje migrantskom krizom
+
+### Članovi grupe: 
+   
