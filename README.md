@@ -26,14 +26,19 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
           - Dodavanje svih policijskih stanica u sistem
           - Upravljanje bazom podataka svih migranata
           - Kreiranje izvjestaja o trenutnom stanju
+          - Odobravanje premjestanja migranata
    
    ### Policijska stanica      
          
           - Provjera podataka o migrantima u bazi podataka
           - Pristup mapi sa migrantskim centrima 
           - Slanje zahtjeva migrantskim centrima za prihvat migranata 
+          - Vođenje krivicne evidencije o migrantu
    
    ### Migrantski centar 
     
           - Dodavanje novog migranta u bazu 
+          - Slanje zahtjeva administratoru za premjestanje 
+          - Vođenje zdravstvene evidencije o migrantu
+          - Deportovanje migranta
           
