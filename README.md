@@ -28,6 +28,7 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
           - Kreiranje izvjestaja o trenutnom stanju
           - Odobravanje premjestanja migranata
           - Odobravanje deportacije migranata
+          - Slanje zahtjeva policijskoj stanici za asistenciju u premjestanju ili deportaciji
    
    ### Policijska stanica      
          
