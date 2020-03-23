@@ -34,9 +34,7 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
           - Slanje migranta u MC zatvorenog tipa 
           - Vođenje krivicne evidencije o migrantu
           - Premjestanje ili deportacija migranta
-          - Hapšenje migranata usljed težeg krivičnog prekršaja
-          - Hapšenje usljed lošeg vladanja unutar migrantskog centra
-          - Slanje zahtjeva za deportaciju migranta
+          - Hapšenje migranta
    
    ### Migrantski centar zatvorenog tipa
    
@@ -45,11 +43,9 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
           - Slanje u migrantski centar otvorenog tipa
           
    ### Migrantski centar otvorenog tipa      
-           
-          - Vođenje evidencije o migrantima
-          - Slanje zahtjeva za premjestanje 
+          - Vođenje evidencije o ponašanju migranta
           - Vođenje zdravstvene evidencije o migrantu
-          - Vođenje evidencije o ponašanju unutar migrantskog centra
+          - Slanje zahtjeva za premjestanje ili deportaciju
           - Slanje zahtjeva za hapšenje migranta
           
 ## Funkcionalnosti:
