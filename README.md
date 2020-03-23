@@ -37,13 +37,22 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
           - Slanje zahtjeva migrantskim centrima za prihvat migranata 
           - Vođenje krivicne evidencije o migrantu
           - Primanje zahtjeva za asistenciju u premjestanju ili deportaciji
+          - Hapšenje migranata usljed težeg krivičnog prekršaja
+          - Primanje zahtjeva za hapšenje usljed lošeg vladanja unutra migrantskog centra
    
    ### Migrantski centar 
     
-          - Dodavanje novog migranta u bazu 
+          - Dodavanje novog migranta u bazu u migrantskom centru zatvorenog tipa 
           - Vođenje evidencije o migrantima
           - Slanje zahtjeva administratoru za premjestanje 
           - Vođenje zdravstvene evidencije o migrantu
           - Slanje zahtjeva za deportaciju migranata 
           - Vođenje evidencije o ponašanju unutar migrantskog centra
+          - Slanje zahtjeva za hapšenje migranta
+          
+## Funkcionalnosti:
+   - Komunikacija između razičitih institucija
+   - Sistematizacija migrantske krize unutar države
+   - Vođenje evidencije o trenutnoj lokaciji migranta unutar države 
+   - Vođenje evidencije o migrantskim centrima
           
