@@ -35,6 +35,7 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
           - Pristup mapi sa migrantskim centrima 
           - Slanje zahtjeva migrantskim centrima za prihvat migranata 
           - Vođenje krivicne evidencije o migrantu
+          - Primanje zahtjeva za asistenciju u premjestanju ili deportaciji
    
    ### Migrantski centar 
     
