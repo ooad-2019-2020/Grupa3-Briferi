@@ -15,8 +15,8 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
   - Migrantski centri
       - Zatvorenog tipa
       - Otvorenog tipa
-  - Policijske stanice - 
-  - Administrator - predstavlja koordinacioni centar na državnom nivou
+  - Policijske stanice
+  - Administrator
 
 ## Procesi:
    
@@ -38,7 +38,7 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
           - Vođenje krivicne evidencije o migrantu
           - Primanje zahtjeva za asistenciju u premjestanju ili deportaciji
           - Hapšenje migranata usljed težeg krivičnog prekršaja
-          - Primanje zahtjeva za hapšenje usljed lošeg vladanja unutra migrantskog centra
+          - Primanje zahtjeva za hapšenje usljed lošeg vladanja unutar migrantskog centra
    
    ### Migrantski centar 
     
@@ -53,6 +53,6 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
 ## Funkcionalnosti:
    - Komunikacija između razičitih institucija
    - Sistematizacija migrantske krize unutar države
-   - Vođenje evidencije o trenutnoj lokaciji migranta unutar države 
+   - Vođenje evidencije o trenutnoj lokaciji migranata unutar države 
    - Vođenje evidencije o migrantskim centrima
           
