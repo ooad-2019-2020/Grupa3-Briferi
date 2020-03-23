@@ -18,7 +18,7 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
   - Policijske stanice - 
   - Administrator - predstavlja koordinacioni centar na državnom nivou
 
-## Funkcionalnosti:
+## Procesi:
    
    ### Administrator
       
