@@ -43,8 +43,9 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
    ### Migrantski centar zatvorenog tipa
    
           - Primanje i identifikacija migranata
-          - Registracija migranata  
-          - Mogućnost slanje u migrantski centar otvorenog tipa
+          - Registracija migranata u bazu podatak
+          - Slanje zahtjeva za prihvatanje migranta u migrantski centar otvorenog tipa
+          - Slanje u migrantski centar otvorenog tipa
           
    ### Migrantski centar otvorenog tipa      
            
