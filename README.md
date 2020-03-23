@@ -40,15 +40,22 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
           - Hapšenje migranata usljed težeg krivičnog prekršaja
           - Primanje zahtjeva za hapšenje usljed lošeg vladanja unutar migrantskog centra
    
-   ### Migrantski centar 
-    
-          - Dodavanje novog migranta u bazu u migrantskom centru zatvorenog tipa 
+   ### Migrantski centar zatvorenog tipa
+   
+          - Primanje i identifikacija migranata
+          - Registracija migranata  
+          - Mogućnost slanje u migrantski centar otvorenog tipa
+          
+   ### Migrantski centar otvorenog tipa      
+           
           - Vođenje evidencije o migrantima
           - Slanje zahtjeva administratoru za premjestanje 
           - Vođenje zdravstvene evidencije o migrantu
           - Slanje zahtjeva za deportaciju migranata 
           - Vođenje evidencije o ponašanju unutar migrantskog centra
           - Slanje zahtjeva za hapšenje migranta
+          - Primanje migranata iz migrantskog centra zatvorenog tipa
+          
           
 ## Funkcionalnosti:
    - Komunikacija između razičitih institucija
