@@ -26,37 +26,31 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
           - Dodavanje svih policijskih stanica u sistem
           - Upravljanje bazom podataka svih migranata
           - Kreiranje izvjestaja o trenutnom stanju
-          - Odobravanje premjestanja migranata
-          - Odobravanje deportacije migranata
-          - Slanje zahtjeva policijskoj stanici za asistenciju u premjestanju ili deportaciji
+          - Odobravanje deportacije ili premjestanja migranata
    
    ### Policijska stanica      
          
           - Provjera podataka o migrantima u bazi podataka
-          - Pristup mapi sa migrantskim centrima 
-          - Slanje zahtjeva migrantskim centrima za prihvat migranata 
+          - Slanje migranta u MC zatvorenog tipa 
           - Vođenje krivicne evidencije o migrantu
-          - Primanje zahtjeva za asistenciju u premjestanju ili deportaciji
+          - Premjestanje ili deportacija migranta
           - Hapšenje migranata usljed težeg krivičnog prekršaja
-          - Primanje zahtjeva za hapšenje usljed lošeg vladanja unutar migrantskog centra
+          - Hapšenje usljed lošeg vladanja unutar migrantskog centra
+          - Slanje zahtjeva za deportaciju migranta
    
    ### Migrantski centar zatvorenog tipa
    
           - Primanje i identifikacija migranata
-          - Registracija migranata u bazu podatak
-          - Slanje zahtjeva za prihvatanje migranta u migrantski centar otvorenog tipa
+          - Registracija migranata u bazu podataka
           - Slanje u migrantski centar otvorenog tipa
           
    ### Migrantski centar otvorenog tipa      
            
           - Vođenje evidencije o migrantima
-          - Slanje zahtjeva administratoru za premjestanje 
+          - Slanje zahtjeva za premjestanje 
           - Vođenje zdravstvene evidencije o migrantu
-          - Slanje zahtjeva za deportaciju migranata 
           - Vođenje evidencije o ponašanju unutar migrantskog centra
           - Slanje zahtjeva za hapšenje migranta
-          - Primanje migranata iz migrantskog centra zatvorenog tipa
-          
           
 ## Funkcionalnosti:
    - Komunikacija između razičitih institucija
