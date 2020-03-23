@@ -47,6 +47,7 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
           - Vođenje zdravstvene evidencije o migrantu
           - Slanje zahtjeva za premjestanje ili deportaciju
           - Slanje naloga za hapšenje migranta
+          - Preusmjeravanje u drugi migrantski centar
           
 ## Funkcionalnosti:
    - Komunikacija između razičitih institucija
