@@ -45,4 +45,5 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
           - Slanje zahtjeva administratoru za premjestanje 
           - Vođenje zdravstvene evidencije o migrantu
           - Slanje zahtjeva za deportaciju migranata 
+          - Vođenje evidencije o ponašanju unutar migrantskog centra
           
