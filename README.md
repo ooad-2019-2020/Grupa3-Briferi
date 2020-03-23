@@ -31,7 +31,7 @@ Velika migrantska kriza zadesila je Evropu 2015. godine. Milioni stanovnika neko
    ### Policijska stanica      
          
           - Provjera podataka o migrantima u bazi podataka
-          - Slanje migranta u MC zatvorenog tipa 
+          - Slanje migranta u migrantski centar zatvorenog tipa 
           - Vođenje krivicne evidencije o migrantu
           - Premjestanje ili deportacija migranta
           - Hapšenje migranta
