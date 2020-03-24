@@ -1,5 +1,5 @@
 # Tema: Software za upravljanje migrantskom krizom
-![Image description](https://rtl-static.cdn.sysbee.net/image/migranti-hrvatska-srbija-8c56c3c0feab9f9b07dc52c823b2ac32_view_article_new.jpg)
+![Image descriptions](https://rtl-static.cdn.sysbee.net/image/migranti-hrvatska-srbija-8c56c3c0feab9f9b07dc52c823b2ac32_view_article_new.jpg)
 ## Članovi grupe: 
    
    - [Muharem Muhović](https://github.com/mmuhovic2)
