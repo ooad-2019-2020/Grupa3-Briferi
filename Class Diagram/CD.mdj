@@ -2217,7 +2217,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 1824,
+											"left": 1808,
 											"top": -2976,
 											"height": 13
 										},
@@ -2228,7 +2228,7 @@
 												"$ref": "AAAAAAFxmEJrpArM5JA="
 											},
 											"font": "Arial;13;1",
-											"left": 1381,
+											"left": 1373,
 											"top": 423,
 											"width": 340.71044921875,
 											"height": 13,
@@ -2242,7 +2242,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 1824,
+											"left": 1808,
 											"top": -2976,
 											"width": 80.9072265625,
 											"height": 13,
@@ -2256,14 +2256,14 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 1824,
+											"left": 1808,
 											"top": -2976,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1376,
+									"left": 1368,
 									"top": 416,
 									"width": 350.71044921875,
 									"height": 25,
@@ -2300,11 +2300,11 @@
 												"$ref": "AAAAAAFxmEQlXQrz3fY="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
+											"left": 1373,
 											"top": 446,
 											"width": 340.71044921875,
 											"height": 13,
-											"text": "-migrantskiCentriO: List<MCOtvoreniTip>",
+											"text": "-migrantskiCentriO: List<MigrantskiCentar>",
 											"horizontalAlignment": 0
 										},
 										{
@@ -2316,8 +2316,9 @@
 											"model": {
 												"$ref": "AAAAAAFxmESgdQr6qW4="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
-											"left": 1381,
+											"left": 1365,
 											"top": 461,
 											"width": 340.71044921875,
 											"height": 13,
@@ -2334,8 +2335,8 @@
 												"$ref": "AAAAAAFxmEUkqgsCg2c="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 476,
+											"left": 1373,
+											"top": 461,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "-migranti: List<Migrant>",
@@ -2351,8 +2352,8 @@
 												"$ref": "AAAAAAFxmEVbOAsJb24="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 491,
+											"left": 1373,
+											"top": 476,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "-policijskeStanice: List<PolicijskaStanica>",
@@ -2368,8 +2369,8 @@
 												"$ref": "AAAAAAFxmEWLRAsQFXw="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 506,
+											"left": 1373,
+											"top": 491,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "-brojRegistrovanihMigranata: int",
@@ -2385,8 +2386,8 @@
 												"$ref": "AAAAAAFxmEW7qAsXHyc="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 521,
+											"left": 1373,
+											"top": 506,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "-brojUhapsenihMigranata: int",
@@ -2402,8 +2403,8 @@
 												"$ref": "AAAAAAFxmJgg+hHlum4="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 536,
+											"left": 1373,
+											"top": 521,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "-zahtjevi: List<Zahtjev>",
@@ -2411,10 +2412,10 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1376,
+									"left": 1368,
 									"top": 441,
 									"width": 350.71044921875,
-									"height": 113
+									"height": 98
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -2436,8 +2437,8 @@
 												"$ref": "AAAAAAFxmEY9RAsf8Cw="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 559,
+											"left": 1373,
+											"top": 544,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+odobriDeportovanje(): boolean",
@@ -2453,8 +2454,8 @@
 												"$ref": "AAAAAAFxmEaOMwsoO38="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 574,
+											"left": 1373,
+											"top": 559,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+dodajPolicijskuStanicu(p: PolicijskaStanica): void",
@@ -2470,8 +2471,8 @@
 												"$ref": "AAAAAAFxmEcUwwsz/wM="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 589,
+											"left": 1373,
+											"top": 574,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+ukiniPolicijskuStanicu(p: PolicijskaStanica): void",
@@ -2487,11 +2488,11 @@
 												"$ref": "AAAAAAFxmEdQaws+aQQ="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 604,
+											"left": 1373,
+											"top": 589,
 											"width": 340.71044921875,
 											"height": 13,
-											"text": "+dodajMigrantskiCentarO(m: MCOtvoreniTip): void",
+											"text": "+dodajMigrantskiCentar(m: MigrantskiCentar): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -2504,11 +2505,11 @@
 												"$ref": "AAAAAAFxmEjpUwtJCaw="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 619,
+											"left": 1373,
+											"top": 604,
 											"width": 340.71044921875,
 											"height": 13,
-											"text": "+ukiniMigrantskiCentarO(m: MCOtvoreniTip): void",
+											"text": "+ukiniMigrantskiCentar(m: MigrantskiCentar): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -2522,7 +2523,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 2293,
+											"left": 2277,
 											"top": -869,
 											"width": 292.474609375,
 											"height": 13,
@@ -2538,9 +2539,10 @@
 											"model": {
 												"$ref": "AAAAAAFxmEyLQQte+GQ="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 634,
+											"left": 1365,
+											"top": 619,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+dodajMigrantskiCentarZ(m: MCZatvoreniTip): void",
@@ -2555,9 +2557,10 @@
 											"model": {
 												"$ref": "AAAAAAFxmEyeXwtr3fI="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 649,
+											"left": 1365,
+											"top": 634,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+ukiniMigrantskiCentarZ(m: MCZatvoreniTip): void",
@@ -2573,8 +2576,8 @@
 												"$ref": "AAAAAAFxmEzy4At3yBU="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 664,
+											"left": 1373,
+											"top": 619,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+dodijeliMogucnostDeportovanja(p: PolicijskaStanica): void",
@@ -2590,8 +2593,8 @@
 												"$ref": "AAAAAAFxmE713gufIic="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 679,
+											"left": 1373,
+											"top": 634,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+ukiniMogucnostDeportovanja(p: PolicijskaStanica): void",
@@ -2607,8 +2610,8 @@
 												"$ref": "AAAAAAFxmE8uaAuqXyU="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 694,
+											"left": 1373,
+											"top": 649,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+dodijeliMogucnostPremjestanja(p: MigrantskiCentar): void",
@@ -2624,8 +2627,8 @@
 												"$ref": "AAAAAAFxmE+BZQu1Txc="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 709,
+											"left": 1373,
+											"top": 664,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+ukiniMogucnostPremjestanja(p: MigrantskiCentar): void",
@@ -2641,8 +2644,8 @@
 												"$ref": "AAAAAAFxmFdYXgvA/Is="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 724,
+											"left": 1373,
+											"top": 679,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+deportujMigranta(m: Migrant): void",
@@ -2658,8 +2661,8 @@
 												"$ref": "AAAAAAFxmFlrsQvwSfY="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 739,
+											"left": 1373,
+											"top": 694,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+premjestiMigranta(m: Migrant, c: MigrantskiCentar): void",
@@ -2675,8 +2678,8 @@
 												"$ref": "AAAAAAFxmFrjEwv9tLY="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 754,
+											"left": 1373,
+											"top": 709,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+provjeriStatusSlobodnihMjesta(): MCOtvoreniTip",
@@ -2692,8 +2695,8 @@
 												"$ref": "AAAAAAFxmFsxCgwGvHw="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 769,
+											"left": 1373,
+											"top": 724,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+registrujMigranta(m: Migrant): void",
@@ -2709,8 +2712,8 @@
 												"$ref": "AAAAAAFxmFtdzAwR5tY="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 784,
+											"left": 1373,
+											"top": 739,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+uhapsiMigranta(m: Migrant, p: PolicijskaStanica): void",
@@ -2726,8 +2729,8 @@
 												"$ref": "AAAAAAFxmFum/AwehSM="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 799,
+											"left": 1373,
+											"top": 754,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+izbrisiMigranta(m: Migrant): void",
@@ -2743,8 +2746,8 @@
 												"$ref": "AAAAAAFxmFwgOQwp7ZE="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 814,
+											"left": 1373,
+											"top": 769,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+identificirajMigranta(i: int): Migrant",
@@ -2760,8 +2763,8 @@
 												"$ref": "AAAAAAFxmF0Fygw019k="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 829,
+											"left": 1373,
+											"top": 784,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+provjeriMigrantskeCentre(m: Migrant): MigrantskiCentar",
@@ -2777,8 +2780,8 @@
 												"$ref": "AAAAAAFxmMUfohO8QLk="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 844,
+											"left": 1373,
+											"top": 799,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+dodajZahtjev(z: Zahtjev): void",
@@ -2794,8 +2797,8 @@
 												"$ref": "AAAAAAFxmMW8KhPHb34="
 											},
 											"font": "Arial;13;0",
-											"left": 1381,
-											"top": 859,
+											"left": 1373,
+											"top": 814,
 											"width": 340.71044921875,
 											"height": 13,
 											"text": "+ukiniZahtjev(z: Zahtjev): void",
@@ -2803,10 +2806,10 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1376,
-									"top": 554,
+									"left": 1368,
+									"top": 539,
 									"width": 350.71044921875,
-									"height": 323
+									"height": 293
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -2819,7 +2822,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 912,
+									"left": 904,
 									"top": -1488,
 									"width": 10,
 									"height": 10
@@ -2835,7 +2838,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 912,
+									"left": 904,
 									"top": -1488,
 									"width": 10,
 									"height": 10
@@ -2843,10 +2846,10 @@
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1376,
+							"left": 1368,
 							"top": 416,
 							"width": 350.71044921875,
-							"height": 461,
+							"height": 416,
 							"nameCompartment": {
 								"$ref": "AAAAAAFxmEJrpArM5JA="
 							},
@@ -3067,7 +3070,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1532,
+									"left": 1531,
 									"top": 343,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3087,7 +3090,7 @@
 										"$ref": "AAAAAAFxmHf0wQzhR6I="
 									},
 									"font": "Arial;13;0",
-									"left": 1497,
+									"left": 1496,
 									"top": 343,
 									"width": 41.919921875,
 									"height": 13,
@@ -3110,7 +3113,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1561,
+									"left": 1560,
 									"top": 344,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -3129,7 +3132,7 @@
 								"$ref": "AAAAAAFxmEJrpArLCLk="
 							},
 							"lineStyle": 1,
-							"points": "1548:415;1547:286",
+							"points": "1545:415;1547:286",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFxmHf0wgzjT3w="
@@ -4586,7 +4589,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1305,
+									"left": 1301,
 									"top": 443,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -4607,7 +4610,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1305,
+									"left": 1301,
 									"top": 428,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -4628,7 +4631,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1305,
+									"left": 1301,
 									"top": 473,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -4713,7 +4716,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1350,
+									"left": 1342,
 									"top": 443,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -4733,7 +4736,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1347,
+									"left": 1339,
 									"top": 429,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -4752,7 +4755,7 @@
 										"$ref": "AAAAAAFxmMd+OxPUhzI="
 									},
 									"font": "Arial;13;0",
-									"left": 1351,
+									"left": 1343,
 									"top": 470,
 									"width": 7.22998046875,
 									"height": 13,
@@ -4799,7 +4802,7 @@
 							"tail": {
 								"$ref": "AAAAAAFxmDIKQQignh8="
 							},
-							"points": "1235:464;1376:464",
+							"points": "1235:464;1368:464",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFxmMd+PBPXG9k="
@@ -4856,7 +4859,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1306,
+									"left": 1302,
 									"top": 611,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -4877,7 +4880,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1306,
+									"left": 1302,
 									"top": 596,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -4898,7 +4901,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1306,
+									"left": 1302,
 									"top": 641,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -4983,7 +4986,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1350,
+									"left": 1342,
 									"top": 611,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -5003,7 +5006,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1347,
+									"left": 1339,
 									"top": 597,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -5022,7 +5025,7 @@
 										"$ref": "AAAAAAFxmMg8PhSbTJ8="
 									},
 									"font": "Arial;13;0",
-									"left": 1351,
+									"left": 1343,
 									"top": 638,
 									"width": 7.22998046875,
 									"height": 13,
@@ -5069,7 +5072,7 @@
 							"tail": {
 								"$ref": "AAAAAAFxmCldmQYaFUo="
 							},
-							"points": "1236:632;1376:632",
+							"points": "1236:632;1368:632",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFxmMg8QBSe7Cg="
@@ -5253,7 +5256,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1350,
+									"left": 1342,
 									"top": 779,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -5273,7 +5276,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1347,
+									"left": 1339,
 									"top": 765,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -5292,7 +5295,7 @@
 										"$ref": "AAAAAAFxmMjEsBePf8M="
 									},
 									"font": "Arial;13;0",
-									"left": 1351,
+									"left": 1343,
 									"top": 806,
 									"width": 7.22998046875,
 									"height": 13,
@@ -5343,7 +5346,7 @@
 							"tail": {
 								"$ref": "AAAAAAFxmEA4UwpYX0s="
 							},
-							"points": "1080:1048;1080:800;1376:800",
+							"points": "1080:1048;1080:800;1368:800",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFxmMjEsBeSVuY="
@@ -5400,7 +5403,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1794,
+									"left": 1790,
 									"top": 610,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -5421,7 +5424,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1794,
+									"left": 1790,
 									"top": 625,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -5442,7 +5445,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1795,
+									"left": 1791,
 									"top": 580,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -5527,7 +5530,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1751,
+									"left": 1743,
 									"top": 609,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -5547,7 +5550,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1754,
+									"left": 1746,
 									"top": 623,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -5566,7 +5569,7 @@
 										"$ref": "AAAAAAFxmMsy/B4cY4Y="
 									},
 									"font": "Arial;13;0",
-									"left": 1744,
+									"left": 1736,
 									"top": 582,
 									"width": 7.22998046875,
 									"height": 13,
@@ -5613,7 +5616,7 @@
 							"tail": {
 								"$ref": "AAAAAAFxmDRtLQj/HVc="
 							},
-							"points": "1864:601;1726:601",
+							"points": "1864:601;1718:601",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFxmMsy/R4fIKM="
@@ -5952,7 +5955,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1506,
-									"top": 955,
+									"top": 932,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -5973,7 +5976,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 1491,
-									"top": 955,
+									"top": 932,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -5993,8 +5996,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1535,
-									"top": 956,
+									"left": 1536,
+									"top": 933,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -6079,7 +6082,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1506,
-									"top": 895,
+									"top": 850,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -6099,7 +6102,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1492,
-									"top": 898,
+									"top": 853,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -6118,7 +6121,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 1530,
-									"top": 891,
+									"top": 846,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -6164,7 +6167,7 @@
 							"tail": {
 								"$ref": "AAAAAAFxmJiZnRHvAaY="
 							},
-							"points": "1521:1048;1521:876",
+							"points": "1521:1048;1521:831",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFxmMyjVC/yoU4="
@@ -9069,7 +9072,7 @@
 							},
 							"name": "migrantskiCentriO",
 							"visibility": "private",
-							"type": "List<MCOtvoreniTip>"
+							"type": "List<MigrantskiCentar>"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -9218,7 +9221,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFxmEJrowrJMaM="
 							},
-							"name": "dodajMigrantskiCentarO",
+							"name": "dodajMigrantskiCentar",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -9228,7 +9231,7 @@
 									},
 									"name": "m",
 									"type": {
-										"$ref": "AAAAAAFxmDIKQQieMGU="
+										"$ref": "AAAAAAFxmByKOQUm9mg="
 									}
 								},
 								{
@@ -9248,7 +9251,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFxmEJrowrJMaM="
 							},
-							"name": "ukiniMigrantskiCentarO",
+							"name": "ukiniMigrantskiCentar",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -9258,7 +9261,7 @@
 									},
 									"name": "m",
 									"type": {
-										"$ref": "AAAAAAFxmDIKQQieMGU="
+										"$ref": "AAAAAAFxmByKOQUm9mg="
 									}
 								},
 								{
