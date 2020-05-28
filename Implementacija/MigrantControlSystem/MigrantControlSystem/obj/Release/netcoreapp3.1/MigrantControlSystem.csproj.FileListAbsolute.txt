@@ -174,3 +174,8 @@ C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\Mi
 C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\MigrantControlSystem.dll
 C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\MigrantControlSystem.pdb
 C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\MigrantControlSystem.genruntimeconfig.cache
+C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\PolicijskaStanica\Create.cshtml.g.cs
+C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\PolicijskaStanica\Delete.cshtml.g.cs
+C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\PolicijskaStanica\Details.cshtml.g.cs
+C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\PolicijskaStanica\Edit.cshtml.g.cs
+C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\PolicijskaStanica\Index.cshtml.g.cs
