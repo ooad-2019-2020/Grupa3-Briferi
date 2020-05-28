@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace MigrantControlSystem.Models
 {
-    public class Zahtjev
+    public abstract class Zahtjev
     {
         public int id { get; set; }
         public virtual Migrant migrant { get; set; }

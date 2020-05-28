@@ -29,7 +29,13 @@ namespace MigrantControlSystem.Models
             modelBuilder.Entity<PolicijskaStanica>().ToTable("PolicijskaStanica");
             modelBuilder.Entity<Zahtjev>().ToTable("Zahtjev");
             modelBuilder.Entity<Lokacija>().ToTable("Lokacija");
-            
+            modelBuilder.Entity<Deportacija>();
+            modelBuilder.Entity<Premjestanje>();
+            modelBuilder.Entity<Hapsenje>();
+            modelBuilder.Entity<MCOtvoreniTip>();
+            modelBuilder.Entity<MCZatvoreniTip>();
+
+
         }
     }
 }

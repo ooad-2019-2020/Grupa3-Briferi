@@ -11,5 +11,6 @@
     <WebStackScaffolding_DbContextTypeFullName>MigrantControlSystem.Models.MCSDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
+    <NameOfLastUsedPublishProfile>MigrantControlSystem20200528094942 - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

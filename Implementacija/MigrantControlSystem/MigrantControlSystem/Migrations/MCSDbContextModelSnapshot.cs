@@ -78,6 +78,10 @@ namespace MigrantControlSystem.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("kapacitet")
                         .HasColumnType("int");
 
@@ -92,6 +96,8 @@ namespace MigrantControlSystem.Migrations
                     b.HasIndex("lokacijaid");
 
                     b.ToTable("MigrantskiCentar");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("MigrantskiCentar");
                 });
 
             modelBuilder.Entity("MigrantControlSystem.Models.PolicijskaStanica", b =>
@@ -121,6 +127,10 @@ namespace MigrantControlSystem.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("migrantid")
                         .HasColumnType("int");
 
@@ -134,6 +144,76 @@ namespace MigrantControlSystem.Migrations
                     b.HasIndex("migrantskiCentarid");
 
                     b.ToTable("Zahtjev");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("Zahtjev");
+                });
+
+            modelBuilder.Entity("MigrantControlSystem.Models.MCOtvoreniTip", b =>
+                {
+                    b.HasBaseType("MigrantControlSystem.Models.MigrantskiCentar");
+
+                    b.Property<int>("brojRegistrovanih")
+                        .HasColumnType("int");
+
+                    b.HasDiscriminator().HasValue("MCOtvoreniTip");
+                });
+
+            modelBuilder.Entity("MigrantControlSystem.Models.MCZatvoreniTip", b =>
+                {
+                    b.HasBaseType("MigrantControlSystem.Models.MigrantskiCentar");
+
+                    b.Property<int>("brojZatvorenih")
+                        .HasColumnType("int");
+
+                    b.Property<int>("standardniPeriodZadrzavanjaMigranta")
+                        .HasColumnType("int");
+
+                    b.HasDiscriminator().HasValue("MCZatvoreniTip");
+                });
+
+            modelBuilder.Entity("MigrantControlSystem.Models.Deportacija", b =>
+                {
+                    b.HasBaseType("MigrantControlSystem.Models.Zahtjev");
+
+                    b.Property<int>("dodatniRokIzvrsenja")
+                        .HasColumnType("int");
+
+                    b.Property<string>("drzava")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasDiscriminator().HasValue("Deportacija");
+                });
+
+            modelBuilder.Entity("MigrantControlSystem.Models.Hapsenje", b =>
+                {
+                    b.HasBaseType("MigrantControlSystem.Models.Zahtjev");
+
+                    b.Property<int>("dodatniRokIzvrsenja")
+                        .HasColumnName("Hapsenje_dodatniRokIzvrsenja")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("policijskaStanicaid")
+                        .HasColumnType("int");
+
+                    b.HasIndex("policijskaStanicaid");
+
+                    b.HasDiscriminator().HasValue("Hapsenje");
+                });
+
+            modelBuilder.Entity("MigrantControlSystem.Models.Premjestanje", b =>
+                {
+                    b.HasBaseType("MigrantControlSystem.Models.Zahtjev");
+
+                    b.Property<int>("dodatniRokIzvrsenja")
+                        .HasColumnName("Premjestanje_dodatniRokIzvrsenja")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("dolazniMigrantskiCentarid")
+                        .HasColumnType("int");
+
+                    b.HasIndex("dolazniMigrantskiCentarid");
+
+                    b.HasDiscriminator().HasValue("Premjestanje");
                 });
 
             modelBuilder.Entity("MigrantControlSystem.Models.Migrant", b =>
@@ -170,6 +250,20 @@ namespace MigrantControlSystem.Migrations
                     b.HasOne("MigrantControlSystem.Models.MigrantskiCentar", "migrantskiCentar")
                         .WithMany("zahtjevi")
                         .HasForeignKey("migrantskiCentarid");
+                });
+
+            modelBuilder.Entity("MigrantControlSystem.Models.Hapsenje", b =>
+                {
+                    b.HasOne("MigrantControlSystem.Models.PolicijskaStanica", "policijskaStanica")
+                        .WithMany()
+                        .HasForeignKey("policijskaStanicaid");
+                });
+
+            modelBuilder.Entity("MigrantControlSystem.Models.Premjestanje", b =>
+                {
+                    b.HasOne("MigrantControlSystem.Models.MigrantskiCentar", "dolazniMigrantskiCentar")
+                        .WithMany()
+                        .HasForeignKey("dolazniMigrantskiCentarid");
                 });
 #pragma warning restore 612, 618
         }

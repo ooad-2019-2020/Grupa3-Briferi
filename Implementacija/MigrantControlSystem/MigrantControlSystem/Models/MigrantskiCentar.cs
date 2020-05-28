@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace MigrantControlSystem.Models
 {
-    public class MigrantskiCentar
+    public abstract class MigrantskiCentar
     {
         public int id { get; set; }
         public String naziv { get; set; }
