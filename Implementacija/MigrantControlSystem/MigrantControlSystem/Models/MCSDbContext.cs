@@ -37,5 +37,8 @@ namespace MigrantControlSystem.Models
 
 
         }
+
+        //Ova funkcija se koriste da bi se ukinulo automatsko dodavanje množine u nazive
+        public DbSet<MigrantControlSystem.Models.Hapsenje> Hapsenje { get; set; }
     }
 }

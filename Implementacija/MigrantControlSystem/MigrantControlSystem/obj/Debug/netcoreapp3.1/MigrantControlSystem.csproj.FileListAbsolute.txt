@@ -251,3 +251,13 @@ C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\Mi
 C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\Migrants\Details.cshtml.g.cs
 C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\Migrants\Edit.cshtml.g.cs
 C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\Migrants\Index.cshtml.g.cs
+C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\Hapsenje\Create.cshtml.g.cs
+C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\Hapsenje\Delete.cshtml.g.cs
+C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\Hapsenje\Details.cshtml.g.cs
+C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\Hapsenje\Edit.cshtml.g.cs
+C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\Hapsenje\Index.cshtml.g.cs
+C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\PolicijskaStanica\Create.cshtml.g.cs
+C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\PolicijskaStanica\Delete.cshtml.g.cs
+C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\PolicijskaStanica\Details.cshtml.g.cs
+C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\PolicijskaStanica\Edit.cshtml.g.cs
+C:\Users\acer\source\repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\PolicijskaStanica\Index.cshtml.g.cs
