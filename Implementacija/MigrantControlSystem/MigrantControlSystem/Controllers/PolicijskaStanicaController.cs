@@ -52,15 +52,17 @@ namespace MigrantControlSystem.Models
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id,naziv")] PolicijskaStanica policijskaStanica)
-        {
+        public async Task<IActionResult> Create([Bind("policijskaStanica, lokacija")] PolicijskaStanicaLokacijaViewModel viewModel)
+        { 
+            viewModel.policijskaStanica.lokacija = viewModel.lokacija;
             if (ModelState.IsValid)
             {
-                _context.Add(policijskaStanica);
+                _context.Add(viewModel.lokacija);
+                _context.Add(viewModel.policijskaStanica);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(policijskaStanica);
+            return View(viewModel);
         }
 
         // GET: PolicijskaStanica/Edit/5

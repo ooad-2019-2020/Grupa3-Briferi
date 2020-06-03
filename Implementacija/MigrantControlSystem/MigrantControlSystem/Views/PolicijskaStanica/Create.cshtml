@@ -1,4 +1,4 @@
-﻿@model MigrantControlSystem.Models.PolicijskaStanica
+﻿@model PolicijskaStanicaLokacijaViewModel
 
 @{
     ViewData["Title"] = "Create";
@@ -13,9 +13,19 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="naziv" class="control-label"></label>
-                <input asp-for="naziv" class="form-control" />
-                <span asp-validation-for="naziv" class="text-danger"></span>
+                <label asp-for="policijskaStanica.naziv" class="control-label"></label>
+                <input asp-for="policijskaStanica.naziv" class="form-control" />
+                <span asp-validation-for="policijskaStanica.naziv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="lokacija.x" class="control-label"></label>
+                <input asp-for="lokacija.x" class="form-control" id="lokacijax" />
+                <span asp-validation-for="lokacija.x" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="lokacija.y" class="control-label"></label>
+                <input asp-for="lokacija.y" class="form-control" id="lokacijay" />
+                <span asp-validation-for="lokacija.y" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
