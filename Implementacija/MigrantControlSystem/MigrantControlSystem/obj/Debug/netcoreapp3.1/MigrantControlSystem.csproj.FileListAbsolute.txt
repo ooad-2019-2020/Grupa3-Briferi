@@ -447,3 +447,13 @@ C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\M
 C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\staticwebassets\MigrantControlSystem.StaticWebAssets.Manifest.cache
 C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\staticwebassets\MigrantControlSystem.StaticWebAssets.xml
 C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\MigrantControlSystem.genruntimeconfig.cache
+C:\Users\acer\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\OtvoreniTip\Create.cshtml.g.cs
+C:\Users\acer\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\OtvoreniTip\Delete.cshtml.g.cs
+C:\Users\acer\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\OtvoreniTip\Details.cshtml.g.cs
+C:\Users\acer\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\OtvoreniTip\Edit.cshtml.g.cs
+C:\Users\acer\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\OtvoreniTip\Index.cshtml.g.cs
+C:\Users\acer\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\ZatvoreniTip\Create.cshtml.g.cs
+C:\Users\acer\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\ZatvoreniTip\Delete.cshtml.g.cs
+C:\Users\acer\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\ZatvoreniTip\Details.cshtml.g.cs
+C:\Users\acer\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\ZatvoreniTip\Edit.cshtml.g.cs
+C:\Users\acer\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Debug\netcoreapp3.1\Razor\Views\ZatvoreniTip\Index.cshtml.g.cs

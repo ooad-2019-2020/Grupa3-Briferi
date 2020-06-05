@@ -26,11 +26,11 @@ namespace MigrantControlSystem.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("x")
-                        .HasColumnType("int");
+                    b.Property<double>("x")
+                        .HasColumnType("float");
 
-                    b.Property<int>("y")
-                        .HasColumnType("int");
+                    b.Property<double>("y")
+                        .HasColumnType("float");
 
                     b.HasKey("id");
 
