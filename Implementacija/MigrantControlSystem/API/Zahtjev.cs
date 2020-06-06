@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace API
 {
@@ -15,10 +16,13 @@ namespace API
         public int? PremjestanjeDodatniRokIzvrsenja { get; set; }
         public int? DolazniMigrantskiCentarid { get; set; }
         public string Discriminator { get; set; }
-
+        [JsonIgnore]
         public virtual MigrantskiCentar DolazniMigrantskiCentar { get; set; }
+        [JsonIgnore]
         public virtual Migrant Migrant { get; set; }
+        [JsonIgnore]
         public virtual MigrantskiCentar MigrantskiCentar { get; set; }
+        [JsonIgnore]
         public virtual PolicijskaStanica PolicijskaStanica { get; set; }
     }
 }

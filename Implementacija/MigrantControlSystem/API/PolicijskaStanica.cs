@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace API
 {
@@ -14,9 +15,11 @@ namespace API
         public int Id { get; set; }
         public string Naziv { get; set; }
         public int? Lokacijaid { get; set; }
-
+        [JsonIgnore]
         public virtual Lokacija Lokacija { get; set; }
+        [JsonIgnore]
         public virtual ICollection<Migrant> Migrant { get; set; }
+        [JsonIgnore]
         public virtual ICollection<Zahtjev> Zahtjev { get; set; }
     }
 }

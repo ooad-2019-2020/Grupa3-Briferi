@@ -356,11 +356,6 @@ C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\M
 C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\Hapsenje\Index.cshtml.g.cs
 C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\Migrants\Create.cshtml.g.cs
-C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\Migrants\Delete.cshtml.g.cs
-C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\Migrants\Details.cshtml.g.cs
-C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\Migrants\Edit.cshtml.g.cs
-C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\Migrants\Index.cshtml.g.cs
 C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\OtvoreniTip\Create.cshtml.g.cs
 C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\OtvoreniTip\Delete.cshtml.g.cs
 C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\OtvoreniTip\Details.cshtml.g.cs
@@ -390,3 +385,13 @@ C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\M
 C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\MigrantControlSystem.dll
 C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\MigrantControlSystem.pdb
 C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\MigrantControlSystem.genruntimeconfig.cache
+C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\Migrant\Create.cshtml.g.cs
+C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\Migrant\Delete.cshtml.g.cs
+C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\Migrant\Details.cshtml.g.cs
+C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\Migrant\Edit.cshtml.g.cs
+C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\Migrant\Index.cshtml.g.cs
+C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\MigrantskiCentar\Create.cshtml.g.cs
+C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\MigrantskiCentar\Delete.cshtml.g.cs
+C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\MigrantskiCentar\Details.cshtml.g.cs
+C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\MigrantskiCentar\Edit.cshtml.g.cs
+C:\Users\benja\Source\Repos\Grupa3-Briferi\Implementacija\MigrantControlSystem\MigrantControlSystem\obj\Release\netcoreapp3.1\Razor\Views\MigrantskiCentar\Index.cshtml.g.cs

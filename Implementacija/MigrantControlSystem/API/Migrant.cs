@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace API
 {
@@ -17,9 +18,11 @@ namespace API
         public DateTime DatumRegistracije { get; set; }
         public int? MigrantskiCentarid { get; set; }
         public int? PolicijskaStanicaid { get; set; }
-
+        [JsonIgnore]
         public virtual MigrantskiCentar MigrantskiCentar { get; set; }
+        [JsonIgnore]
         public virtual PolicijskaStanica PolicijskaStanica { get; set; }
+        [JsonIgnore]
         public virtual ICollection<Zahtjev> Zahtjev { get; set; }
     }
 }

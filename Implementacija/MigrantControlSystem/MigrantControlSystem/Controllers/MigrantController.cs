@@ -8,11 +8,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MigrantControlSystem.Models
 {
-    public class MigrantsController : Controller
+    public class MigrantController : Controller
     {
         private readonly MCSDbContext _context;
 
-        public MigrantsController(MCSDbContext context)
+        public MigrantController(MCSDbContext context)
         {
             _context = context;
         }
