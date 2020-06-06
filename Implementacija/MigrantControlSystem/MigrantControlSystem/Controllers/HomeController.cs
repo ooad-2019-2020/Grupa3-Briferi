@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MigrantControlSystem.Models;
+using Newtonsoft.Json;
 
 namespace MigrantControlSystem.Controllers
 {
@@ -18,11 +21,31 @@ namespace MigrantControlSystem.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> IndexAsync()
         {
-            return View();
-        }
+            string apiUrl = "https://migrantcontrolsystemapi.azurewebsites.net/";
+            PSViewModel ps = new PSViewModel();
+            using (var client = new HttpClient())
+            {
+                //Postavljanje adrese URL od web api servisa
+                client.BaseAddress = new Uri(apiUrl);
+                client.DefaultRequestHeaders.Clear();
+                //definisanje formata koji želimo prihvatiti
+                client.DefaultRequestHeaders.Accept.Add(new
+                MediaTypeWithQualityHeaderValue("application/json"));
+                //Asinhrono slanje zahtjeva za podacima o studentima
+                HttpResponseMessage Res = await client.GetAsync("api/policijskastanica/");
+                //Provjera da li je rezultat uspješan
+                if (Res.IsSuccessStatusCode)
+                {
+                    //spremanje podataka dobijenih iz responsa
+                    var response = Res.Content.ReadAsStringAsync().Result;
 
+                    ps.stanice=JsonConvert.DeserializeObject<List<PolicijskaStanica>>(response);
+                }
+                return View(ps);
+            }
+        }
         public IActionResult Privacy()
         {
             return View();
