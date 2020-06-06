@@ -8,6 +8,8 @@ namespace MigrantControlSystem.Models
 
     public class MCOtvoreniTip : MigrantskiCentar
     {
-     public int brojRegistrovanih { get; set; }   
+        private int brojRegistrovanih1 = 0;
+
+        public int brojRegistrovanih { get => brojRegistrovanih1; set => brojRegistrovanih1 = value; }
     }
 }

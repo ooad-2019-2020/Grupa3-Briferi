@@ -43,6 +43,15 @@ namespace MigrantControlSystem.Controllers
 
                     ps.stanice=JsonConvert.DeserializeObject<List<PolicijskaStanica>>(response);
                 }
+                Res = await client.GetAsync("api/migrantskicentar/");
+                if (Res.IsSuccessStatusCode)
+                {
+                    //spremanje podataka dobijenih iz responsa
+                    var response = Res.Content.ReadAsStringAsync().Result;
+
+                    ps.otvoreni = JsonConvert.DeserializeObject<List<MCOtvoreniTip>>(response);
+                    ps.zatvoreni = JsonConvert.DeserializeObject<List<MCZatvoreniTip>>(response);
+                }
                 return View(ps);
             }
         }

@@ -15,11 +15,14 @@ namespace API
 
         public int Id { get; set; }
         public string Naziv { get; set; }
+        [JsonIgnore]
         public int Kapacitet { get; set; }
         [JsonIgnore]
         public int? Lokacijaid { get; set; }
-        public int? BrojRegistrovanih { get; set; }
-        public int? BrojZatvorenih { get; set; }
+        [JsonIgnore]
+        public int? BrojRegistrovanih { get; set; } = 0;
+        [JsonIgnore]
+        public int? BrojZatvorenih { get; set; } = 0;
         [JsonIgnore]
         public int? StandardniPeriodZadrzavanjaMigranta { get; set; }
         public string Discriminator { get; set; }

@@ -8,5 +8,8 @@ namespace MigrantControlSystem.Models
     public class PSViewModel
     {
         public IEnumerable<PolicijskaStanica> stanice { get; set; }
+        public IEnumerable<MCOtvoreniTip> otvoreni { get; set; }
+
+        public IEnumerable<MCZatvoreniTip> zatvoreni { get; set; }
     }
 }

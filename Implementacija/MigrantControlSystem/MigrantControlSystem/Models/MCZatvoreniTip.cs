@@ -8,6 +8,6 @@ namespace MigrantControlSystem.Models
     public class MCZatvoreniTip : MigrantskiCentar
     {
         public int standardniPeriodZadrzavanjaMigranta { get; set; }
-        public int brojZatvorenih { get; set; }
+        public int brojZatvorenih { get; set; } = 0;
     }
 }

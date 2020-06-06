@@ -5,60 +5,59 @@
 <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=ArWAROPsES9KoFwx6xcSfB4rACDXoFydfo4I4OEW5VtObukHm6Ci0mzceFpe2jNp' async defer></script>
 <script type='text/javascript'>
 
-        function loadMapScenario() {
-            var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
-                mapTypeId: Microsoft.Maps.MapTypeId.road,
-                zoom: 5
-            });
-            map.setView({
-                mapTypeId: Microsoft.Maps.MapTypeId.aerial,
-                center: new Microsoft.Maps.Location(44.006336, 17.624791),
-                zoom: 7
-            });
-
-            map.setOptions({
-                minZoom: 7
-            });
-            // Create the infobox for the pushpin
-            var infobox = null;
-
-            //declare addMarker function
-            function addMarker(latitude, longitude, title, description, pid)
-            {
-                var marker = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(latitude, longitude), { color: 'green' });
-
-                infobox = new Microsoft.Maps.Infobox(marker.getLocation(), {
-                    visible : false
-                });
-
-                marker.metadata = {
-                    id: pid,
-                    title: title,
-                    description: description
-                };
-
-                Microsoft.Maps.Events.addHandler(marker, 'mouseout', hideInfobox);
-                Microsoft.Maps.Events.addHandler(marker, 'mouseover', showInfobox);
-
-                infobox.setMap(map);
-                map.entities.push(marker);
-                marker.setOptions({ enableHoverStyle: true });
-            };
-
-            function showInfobox(e) {
-                if (e.target.metadata) {
-                    infobox.setOptions({
-                        location: e.target.getLocation(),
-                        title: e.target.metadata.title,
-                        description: e.target.metadata.description,
-                        visible: true
+                function loadMapScenario() {
+                    var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
+                        mapTypeId: Microsoft.Maps.MapTypeId.road,
+                        zoom: 5
                     });
-                }
-            }
+                    map.setView({
+                        mapTypeId: Microsoft.Maps.MapTypeId.aerial,
+                        center: new Microsoft.Maps.Location(44.006336, 17.624791),
+                        zoom: 7
+                    });
 
-            function hideInfobox(e) {
-                infobox.setOptions({ visible: false });
-            }
+                    map.setOptions({
+                        minZoom: 7
+                    });
+                    // Create the infobox for the pushpin
+                    var infobox = null;
+
+                    //declare addMarker function
+                    function addMarker(latitude, longitude, title, description, pid) {
+                        var marker = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(latitude, longitude), { color: 'green' });
+
+                        infobox = new Microsoft.Maps.Infobox(marker.getLocation(), {
+                            visible: false
+                        });
+
+                        marker.metadata = {
+                            id: pid,
+                            title: title,
+                            description: description
+                        };
+
+                        Microsoft.Maps.Events.addHandler(marker, 'mouseout', hideInfobox);
+                        Microsoft.Maps.Events.addHandler(marker, 'mouseover', showInfobox);
+
+                        infobox.setMap(map);
+                        map.entities.push(marker);
+                        marker.setOptions({ enableHoverStyle: true });
+                    };
+
+                    function showInfobox(e) {
+                        if (e.target.metadata) {
+                            infobox.setOptions({
+                                location: e.target.getLocation(),
+                                title: e.target.metadata.title,
+                                description: e.target.metadata.description,
+                                visible: true
+                            });
+                        }
+                    }
+
+                    function hideInfobox(e) {
+                        infobox.setOptions({ visible: false });
+                    }
 
             //add markers to map
             @if (Model.stanice != null)
@@ -66,6 +65,22 @@
                 foreach (var item in Model.stanice)
                 {
                     @:addMarker(@item.lokacija.x, @item.lokacija.y, '@item.naziv', 'PolicijskaStanica', @item.id);
+                }
+            }
+            @if (Model.otvoreni != null)
+            {
+                foreach (var item in Model.otvoreni)
+                {
+
+                    @:addMarker(@item.lokacija.x, @item.lokacija.y, '@item.naziv', 'OtvoreniTip', @item.id);
+                }
+            }
+             @if (Model.zatvoreni!= null)
+            {
+                foreach (var item in Model.zatvoreni)
+                {
+
+                    @:addMarker(@item.lokacija.x, @item.lokacija.y, '@item.naziv', 'ZatvoreniTip', @item.id);
                 }
             }
         }
