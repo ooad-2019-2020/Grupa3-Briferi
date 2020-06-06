@@ -23,8 +23,14 @@
                     var infobox = null;
 
                     //declare addMarker function
-                    function addMarker(latitude, longitude, title, description, pid) {
-                        var marker = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(latitude, longitude), { color: 'green' });
+                    function addMarker(latitude, longitude, title, description, pid, ) {
+                        if (description == 'PolicijskaStanica') {
+                            var marker = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(latitude, longitude), { color: 'green' });
+                        } else if (description == 'OtvoreniTip') {
+                            var marker = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(latitude, longitude), { color: 'red' });
+                        } else {
+                            var marker = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(latitude, longitude), { color: 'blue' });
+                        }
 
                         infobox = new Microsoft.Maps.Infobox(marker.getLocation(), {
                             visible: false
