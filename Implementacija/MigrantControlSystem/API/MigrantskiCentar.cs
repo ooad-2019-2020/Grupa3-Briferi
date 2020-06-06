@@ -16,12 +16,13 @@ namespace API
         public int Id { get; set; }
         public string Naziv { get; set; }
         public int Kapacitet { get; set; }
+        [JsonIgnore]
         public int? Lokacijaid { get; set; }
         public int? BrojRegistrovanih { get; set; }
         public int? BrojZatvorenih { get; set; }
+        [JsonIgnore]
         public int? StandardniPeriodZadrzavanjaMigranta { get; set; }
         public string Discriminator { get; set; }
-        [JsonIgnore]
         public virtual Lokacija Lokacija { get; set; }
         [JsonIgnore]
         public virtual ICollection<Migrant> Migrant { get; set; }

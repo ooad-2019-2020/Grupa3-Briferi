@@ -14,8 +14,8 @@ namespace API
 
         public int Id { get; set; }
         public string Naziv { get; set; }
-        public int? Lokacijaid { get; set; }
         [JsonIgnore]
+        public int? Lokacijaid { get; set; }
         public virtual Lokacija Lokacija { get; set; }
         [JsonIgnore]
         public virtual ICollection<Migrant> Migrant { get; set; }

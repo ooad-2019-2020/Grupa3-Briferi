@@ -24,7 +24,13 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<MigrantskiCentar>>> GetMigrantskiCentar()
         {
-            return await _context.MigrantskiCentar.ToListAsync();
+            var centri = await _context.MigrantskiCentar.ToListAsync();
+            foreach(MigrantskiCentar mc in centri)
+            {
+                var lokacija = _context.Lokacija.Find(mc.Lokacijaid);
+                mc.Lokacija = lokacija;
+            }
+            return centri;
         }
 
         // GET: api/MigrantskiCentar/5
@@ -32,6 +38,8 @@ namespace API.Controllers
         public async Task<ActionResult<MigrantskiCentar>> GetMigrantskiCentar(int id)
         {
             var migrantskiCentar = await _context.MigrantskiCentar.FindAsync(id);
+            var lokacija = _context.Lokacija.Find(migrantskiCentar.Lokacijaid);
+            migrantskiCentar.Lokacija = lokacija;
 
             if (migrantskiCentar == null)
             {

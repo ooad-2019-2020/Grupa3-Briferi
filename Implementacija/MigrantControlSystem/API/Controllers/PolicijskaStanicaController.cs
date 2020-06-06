@@ -25,7 +25,12 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<PolicijskaStanica>>> GetPolicijskaStanica()
         {
-            return await _context.PolicijskaStanica.ToListAsync();
+            var stanice = await _context.PolicijskaStanica.ToListAsync();
+            foreach(PolicijskaStanica ps in stanice) {
+                var lokacija = _context.Lokacija.Find(ps.Lokacijaid);
+                ps.Lokacija = lokacija;
+            }
+            return stanice;
         }
 
         // GET: api/PolicijskaStanica/5
@@ -33,6 +38,8 @@ namespace API.Controllers
         public async Task<ActionResult<PolicijskaStanica>> GetPolicijskaStanica(int id)
         {
             var policijskaStanica = await _context.PolicijskaStanica.FindAsync(id);
+            var lokacija = _context.Lokacija.Find(policijskaStanica.Lokacijaid);
+            policijskaStanica.Lokacija = lokacija;
 
             if (policijskaStanica == null)
             {
