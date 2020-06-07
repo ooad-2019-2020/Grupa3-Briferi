@@ -4,25 +4,14 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1>Uredi</h1>
 
-<h4>MCZatvoreniTip</h4>
+<h4>Migrantski centar zatvorenog tipa</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="standardniPeriodZadrzavanjaMigranta" class="control-label"></label>
-                <input asp-for="standardniPeriodZadrzavanjaMigranta" class="form-control" />
-                <span asp-validation-for="standardniPeriodZadrzavanjaMigranta" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="brojZatvorenih" class="control-label"></label>
-                <input asp-for="brojZatvorenih" class="form-control" />
-                <span asp-validation-for="brojZatvorenih" class="text-danger"></span>
-            </div>
-            <input type="hidden" asp-for="id" />
             <div class="form-group">
                 <label asp-for="naziv" class="control-label"></label>
                 <input asp-for="naziv" class="form-control" />
@@ -34,14 +23,25 @@
                 <span asp-validation-for="kapacitet" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <label asp-for="brojZatvorenih" class="control-label"></label>
+                <input asp-for="brojZatvorenih" class="form-control" />
+                <span asp-validation-for="brojZatvorenih" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="standardniPeriodZadrzavanjaMigranta" class="control-label"></label>
+                <input asp-for="standardniPeriodZadrzavanjaMigranta" class="form-control" />
+                <span asp-validation-for="standardniPeriodZadrzavanjaMigranta" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="id" />
+            <div class="form-group">
+                <input type="submit" value="Spasi" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Nazad na listu</a>
 </div>
 
 @section Scripts {
