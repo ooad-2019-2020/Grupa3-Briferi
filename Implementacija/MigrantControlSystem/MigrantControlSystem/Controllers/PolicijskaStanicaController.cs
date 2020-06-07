@@ -57,6 +57,7 @@ namespace MigrantControlSystem.Models
             viewModel.policijskaStanica.lokacija = viewModel.lokacija;
             if (ModelState.IsValid)
             {
+
                 _context.Add(viewModel.lokacija);
                 _context.Add(viewModel.policijskaStanica);
                 await _context.SaveChangesAsync();
