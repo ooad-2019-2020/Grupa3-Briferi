@@ -4,115 +4,36 @@
     ViewData["Title"] = "Create";
 }
 
-<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=ArWAROPsES9KoFwx6xcSfB4rACDXoFydfo4I4OEW5VtObukHm6Ci0mzceFpe2jNp' async defer></script>
-
-<script type='text/javascript'>
-
-    function loadMapScenario() {
-        var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
-            mapTypeId: Microsoft.Maps.MapTypeId.road,
-            zoom: 5
-        });
-        map.setView({
-            mapTypeId: Microsoft.Maps.MapTypeId.aerial,
-            center: new Microsoft.Maps.Location(44.006336, 17.624791),
-            zoom: 7
-        });
-
-        map.setOptions({
-            minZoom: 7
-        });
-        // Create the infobox for the pushpin
-        var infobox = null;
-
-        Microsoft.Maps.Events.addHandler(map, 'click', function (e) {
-            var point = new Microsoft.Maps.Point(e.getX(), e.getY());
-            var loc = e.target.tryPixelToLocation(point);
-
-         
-                  {
-                    addMarker(loc.latitude, loc.longitude, 'Stanica', 'PolicijskaStanica');
-                  }
-                    
-
-                   }); 
-
-                    //declare addMarker function
-                    function addMarker(latitude, longitude, title, description) {
-                        for (var i = map.entities.getLength() - 1; i >= 0; i--) {
-                            var pushpin = map.entities.get(i);
-                            if (pushpin instanceof Microsoft.Maps.Pushpin) {
-                                map.entities.removeAt(i);
-                            }
-                        }
-
-                        
-                        var marker = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(latitude, longitude), { color: 'green' });
-
-
-                        infobox = new Microsoft.Maps.Infobox(marker.getLocation(), {
-                            visible: false
-                        });
-
-                        marker.metadata = {
-                            title: title,
-                            description: description
-                        };
-
-                        Microsoft.Maps.Events.addHandler(marker, 'mouseout', hideInfobox);
-                        Microsoft.Maps.Events.addHandler(marker, 'mouseover', showInfobox);
-
-                        infobox.setMap(map);
-                        map.entities.push(marker);
-                        marker.setOptions({ enableHoverStyle: true });
-
-                        @Html.;
-                        @Html.Hidden("lokacija.y", "longitude");
-                    };
-
-                    function showInfobox(e) {
-                        if (e.target.metadata) {
-                            infobox.setOptions({
-                                location: e.target.getLocation(),
-                                title: e.target.metadata.title,
-                                description: e.target.metadata.description,
-                                visible: true
-                            });
-                        }
-                    }
-
-                    function hideInfobox(e) {
-                        infobox.setOptions({ visible: false });
-                    }
-
-
-        }
-</script>
-
-
-
 <h1>Kreiranje</h1>
 
 <h4>PolicijskaStanica</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4">@*  *@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="policijskaStanica.naziv" class="control-label"></label>
-                <input asp-for="policijskaStanica.naziv" class="form-control" />
+                <input asp-for="policijskaStanica.naziv" type="text" class="form-control" />
                 <span asp-validation-for="policijskaStanica.naziv" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <label asp-for="lokacija.x" class="control-label"></label>
+                <input asp-for="lokacija.x" class="form-control" />
+                <span asp-validation-for="lokacija.x" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="lokacija.y" class="control-label"></label>
+                <input asp-for="lokacija.y" class="form-control" />
+                <span asp-validation-for="lokacija.y" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Kreiraj" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
-<body onload="loadMapScenario()">
-    <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
-</body>
+
 <div>
     <a asp-action="Index">Nazad na listu</a>
 </div>
